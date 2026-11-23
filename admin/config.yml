@@ -18,8 +18,6 @@ locale: "pt"
 site_url: https://anesiacauacu.com.br
 display_url: https://anesiacauacu.com.br
 logo_url: https://anesiacauacu.com.br/assets/uploads/perfil-instagram.jpg
-
-
 collections:
   # ============================================================
   # TEXTOS DA PÁGINA INICIAL
