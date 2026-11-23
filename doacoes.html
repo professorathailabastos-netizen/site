@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doações — Associação Anésia Cauaçu | Mantenha o cursinho gratuito</title>
+  <meta name="description" content="Doe para o Cursinho Comunitário Anésia Cauaçu e ajude a manter a educação popular gratuita em Jequié e em toda a Bahia. PIX, doação mensal e parcerias.">
+  <meta name="theme-color" content="#2b1a10">
+  <link rel="icon" type="image/jpeg" href="assets/uploads/perfil-instagram.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a class="brand" href="index.html#inicio" aria-label="Anésia Cauaçu — página inicial">
+      <img class="brand__mark" src="assets/uploads/perfil-instagram.jpg" alt="Logo da Associação Anésia Cauaçu">
+      <span class="brand__text">
+        <strong>Anésia Cauaçu</strong>
+        <small>Educação popular · Bahia</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#impacto">Impacto</a>
+      <a href="index.html#cursos">Cursos</a>
+      <a href="index.html#galeria">Galeria</a>
+      <a href="index.html#inscricoes">Inscreva-se</a>
+      <a class="nav__donate is-active" href="doacoes.html">Doações</a>
+      <a href="multiplicadores.html">Seja Multiplicador</a>
+      <a class="nav__cta" href="index.html#inscricoes">Quero estudar</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="section" style="padding-bottom:1rem;">
+    <div class="container">
+      <div class="donate-hero">
+        <p class="eyebrow eyebrow--light" data-campo="doacoes_selo">Doações</p>
+        <h2 data-campo="doacoes_titulo">Sua doação mantém uma sala cheia de futuro</h2>        <p style="max-width:60ch;" data-campo="doacoes_texto">
+          O Cursinho Anésia Cauaçu não cobra nada dos alunos. Cada real doado vira
+          apostila impressa, passagem de ônibus, lanche, internet para a aula online
+          e estrutura para a turma presencial em Jequié.
+        </p>
+        <div class="btn-group" style="margin-top:1.4rem;">
+          <a class="btn btn--gold" href="#pix">Doar agora por PIX</a>
+          <a class="btn btn--outline-light" href="#parcerias">Quero ser parceiro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PIX ===================== -->
+  <section class="section" id="pix" style="padding-top:1.5rem;">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow" data-campo="doacoes_pix_selo">Doação por PIX</p>
+        <h2 data-campo="pix_titulo">Rápido, seguro e direto para o projeto</h2>
+        <p class="section__sub" data-campo="pix_texto">Escolha um valor e envie pelo PIX da associação. Se quiser, avise a gente pelo WhatsApp para receber o recibo.</p>
+      </div>
+
+      <div class="donate-grid">
+        <div>
+          <div class="grid-2">
+            <article class="donate-card">
+              <span class="donate-card__amount">R$ 30</span>
+              <p class="donate-card__desc">Material impresso de um mês para um estudante.</p>
+              <ul class="donate-card__list">
+                <li>Apostilas e listas de exercícios</li>
+                <li>Folhas de redação corrigidas</li>
+              </ul>
+              <button class="btn btn--outline btn--sm" type="button" data-donate="30">Escolher R$ 30</button>
+            </article>
+
+            <article class="donate-card" style="border-color:var(--gold-500); box-shadow:0 0 0 3px var(--gold-100);">
+              <span class="donate-card__amount">R$ 100</span>
+              <p class="donate-card__desc">Transporte de alunos até as aulas presenciais.</p>
+              <ul class="donate-card__list">
+                <li>Passagens para a turma de Jequié</li>
+                <li>Ajuda para quem vem da zona rural</li>
+              </ul>
+              <button class="btn btn--gold btn--sm" type="button" data-donate="100">Escolher R$ 100</button>
+            </article>
+
+            <article class="donate-card">
+              <span class="donate-card__amount">R$ 300</span>
+              <p class="donate-card__desc">Estrutura e internet das turmas online.</p>
+              <ul class="donate-card__list">
+                <li>Plataforma de aulas ao vivo</li>
+                <li>Gravações para quem trabalha</li>
+              </ul>
+              <button class="btn btn--outline btn--sm" type="button" data-donate="300">Escolher R$ 300</button>
+            </article>
+
+            <article class="donate-card">
+              <span class="donate-card__amount">Outro valor</span>
+              <p class="donate-card__desc">Todo valor ajuda. Doe o quanto puder, uma vez ou todo mês.</p>
+              <ul class="donate-card__list">
+                <li>Doação única ou recorrente</li>
+                <li>Também aceitamos materiais e serviços</li>
+              </ul>
+              <button class="btn btn--outline btn--sm" type="button" data-donate="">Escolher outro valor</button>
+            </article>
+          </div>
+
+          <!-- Caixa do PIX -->
+          <div class="pix-box" style="margin-top:1.4rem;">
+            <h4>Chave PIX da associação</h4>
+            <p class="muted" style="font-size:.9rem; margin-bottom:.2rem;">
+              Use a chave abaixo no aplicativo do seu banco. O nome do recebedor deve aparecer
+              como <strong>Associação de Vestibulandos da Bahia — Anésia Cauaçu</strong>.
+            </p>
+            <div class="pix-key">
+              <strong id="pixKey">48.013.739/0001-64</strong>
+              <button class="btn btn--brown btn--sm" type="button" id="copyPix">Copiar</button>
+            </div>
+            <p class="muted" style="font-size:.82rem; margin-bottom:0;">
+              Chave PIX do tipo <strong>CNPJ</strong>, em nome da associação.
+              Confira sempre o nome do recebedor antes de confirmar a transferência.
+            </p>
+          </div>
+        </div>
+
+        <!-- Simulador de doação -->
+        <aside class="card" style="background:var(--brown-50); border-color:var(--brown-100);">
+          <h3 style="margin-bottom:.4rem;">Simule sua doação</h3>
+          <p class="muted" style="font-size:.9rem;">Escolha o valor e a frequência. Depois enviaremos a você o resumo e o PIX.</p>
+
+          <div class="freq-group" role="group" aria-label="Frequência da doação">
+            <button class="freq-btn is-selected" type="button" data-freq="Única">Doação única</button>
+            <button class="freq-btn" type="button" data-freq="Mensal">Todo mês</button>
+          </div>
+
+          <div class="amount-grid" role="group" aria-label="Valor da doação">
+            <button class="amount-btn" type="button" data-amount="15">R$ 15</button>
+            <button class="amount-btn is-selected" type="button" data-amount="30">R$ 30</button>
+            <button class="amount-btn" type="button" data-amount="50">R$ 50</button>
+            <button class="amount-btn" type="button" data-amount="100">R$ 100</button>
+            <button class="amount-btn" type="button" data-amount="300">R$ 300</button>
+            <button class="amount-btn" type="button" data-amount="500">R$ 500</button>
+          </div>
+
+          <div class="field other-amount">
+            <label for="valorOutro">Outro valor (R$)</label>
+            <input type="number" id="valorOutro" min="1" step="1" placeholder="Digite o valor">
+          </div>
+
+          <div class="donation-summary">
+            <h4>Resumo <span id="resumoValor">R$ 30</span></h4>
+            <p class="muted" style="font-size:.86rem; margin-bottom:0;">
+              <strong id="resumoFreq">Doação única</strong> · PIX para a Associação Anésia Cauaçu
+            </p>
+            <ul class="transparency">
+              <li>100% destinado ao cursinho gratuito</li>
+              <li>Recibo enviado por WhatsApp se você quiser</li>
+              <li>Prestação de contas pública</li>
+            </ul>
+          </div>
+
+          <button class="btn btn--gold btn--full" type="button" id="btnPixCopiaCola" style="margin-top:1rem;">
+            Gerar PIX copia e cola
+          </button>
+          <a class="btn btn--outline btn--full" id="btnDoar" href="#" target="_blank" rel="noopener" style="margin-top:.6rem;">
+            Avisar a equipe no WhatsApp
+          </a>
+          <p class="form__note">
+            O código copia e cola já vai com o valor escolhido. Basta colar no aplicativo do seu banco.
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OUTRAS FORMAS ===================== -->
+  <section class="section section--alt" id="parcerias">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow" data-campo="parcerias_selo">Além do dinheiro</p>
+        <h2 data-campo="parcerias_titulo">Outras formas de sustentar o projeto</h2>
+        <p class="section__sub" data-campo="parcerias_texto">Empresas, profissionais e pessoas físicas podem contribuir de vários jeitos.</p>
+      </div>
+
+      <div class="grid-3" id="listaFormasApoio">
+        <article class="card">
+          <span class="icon-box" aria-hidden="true">📚</span>
+          <h3>Materiais e equipamentos</h3>
+          <p class="muted">Livros, apostilas, computadores, projetores, impressão de material e itens de papelaria.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-box" aria-hidden="true">🚌</span>
+          <h3>Transporte e alimentação</h3>
+          <p class="muted">Passagens, van para visitas, lanche das aulas e apoio em eventos como o Jequié Nota Mil.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-box" aria-hidden="true">🏢</span>
+          <h3>Espaço físico</h3>
+          <p class="muted">Salas, auditórios e estruturas cedidas para aulas presenciais e aulões abertos.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-box" aria-hidden="true">🧑‍🏫</span>
+          <h3>Trabalho voluntário</h3>
+          <p class="muted">Professores, universitários, psicólogos, designers e gente que queira ajudar na organização.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-box" aria-hidden="true">📣</span>
+          <h3>Divulgação</h3>
+          <p class="muted">Compartilhar as inscrições nas suas redes é gratuito e ajuda a alcançar quem mais precisa.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon-box" aria-hidden="true">🤝</span>
+          <h3>Parceria institucional</h3>
+          <p class="muted">Escolas, igrejas, associações e empresas que queiram apoiar a turma de uma cidade.</p>
+        </article>
+      </div>
+
+      <div class="btn-group" style="margin-top:2rem; justify-content:center;">
+        <a class="btn btn--brown" href="https://wa.me/5573998205303?text=Ol%C3%A1!%20Quero%20apoiar%20o%20Cursinho%20An%C3%A9sia%20Caua%C3%A7u%20como%20parceiro." target="_blank" rel="noopener">
+          Falar sobre parceria
+        </a>
+        <a class="btn btn--outline" href="multiplicadores.html">Ser multiplicador na minha cidade</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TRANSPARÊNCIA ===================== -->
+  <section class="section section--dark" id="transparencia">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="eyebrow eyebrow--light">Transparência</p>
+          <h2>Confiança se constrói com clareza</h2>
+          <p class="section__sub">
+            A associação é sem fins lucrativos e mantida por doações, parcerias e trabalho
+            voluntário. Publicamos periodicamente o destino dos recursos.
+          </p>
+          <ul class="check-list">
+            <li>Recursos destinados a material, transporte, alimentação e estrutura</li>
+            <li>Nenhum aluno paga para participar</li>
+            <li>Seleções e auxílios seguem critérios públicos</li>
+            <li>Nunca pedimos pagamento em nome de vaga ou aprovação</li>
+          </ul>
+        </div>
+
+        <div class="card" style="background:rgba(255,255,255,.06); border-color:rgba(255,221,143,.22);">
+          <h3>Alerta contra golpes</h3>
+          <p class="muted" style="color:#d9c8b7; font-size:.94rem;">
+            O Cursinho Anésia Cauaçu <strong>nunca</strong> cobra inscrição, mensalidade,
+            taxa de matrícula ou “garantia de vaga”. Se alguém pedir dinheiro em nome do
+            projeto, confirme sempre pelos canais oficiais:
+          </p>
+          <ul class="check-list" style="margin-top:.6rem;">
+            <li>Instagram @anesiacauacubahia</li>
+            <li>Chave PIX oficial desta página</li>
+            <li>Contato direto com a coordenação</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEPOIMENTO ===================== -->
+  <section class="section section--cream">
+    <div class="container narrow center">
+      <p class="eyebrow">Por que doar</p>
+      <h2 style="margin-bottom:1rem;">“O conhecimento chega como direito e não como privilégio.”</h2>
+      <p class="lead" style="margin-bottom:1.6rem;">
+        É isso que sustenta o Anésia Cauaçu: professores voluntários, alunos e comunidade
+        provando que a juventude do sertão pode ocupar as salas da universidade.
+      </p>
+      <a class="btn btn--brown" href="#pix">Quero doar agora</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/uploads/perfil-instagram.jpg" alt="Logo Anésia Cauaçu">
+        <div>
+          <strong>Associação de Vestibulandos da Bahia<br>Anésia Cauaçu</strong>
+          <p>Educação popular gratuita desde 2021. Jequié, Bahia.</p>
+        </div>
+      </div>
+      <div>
+        <h4>Projeto</h4>
+        <ul>
+          <li><a href="index.html#sobre">Sobre nós</a></li>
+          <li><a href="index.html#impacto">Impacto</a></li>
+          <li><a href="index.html#cursos">Cursos</a></li>
+          <li><a href="index.html#galeria">Galeria</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Participe</h4>
+        <ul>
+          <li><a href="index.html#inscricoes">Quero estudar</a></li>
+          <li><a href="multiplicadores.html">Seja multiplicador</a></li>
+          <li><a href="doacoes.html">Doações</a></li>
+          <li><a href="index.html#perguntas">Dúvidas frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Acompanhe</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/anesiacauacubahia/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://wa.me/5573998205303" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="doacoes.html#transparencia">Transparência</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="ano"></span> Associação de Vestibulandos da Bahia — Anésia Cauaçu. Organização sem fins lucrativos.</p>
+      <p>Feito por gente voluntária, em Jequié.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/5573998205303" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.44-.72-2.92-1.15-4.75-4.17-4.9-4.36-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07 1-2.36.26-.29.57-.36.76-.36l.55.01c.18 0 .42-.07.65.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.13.58.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.41.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.39-.24.65-.14.26.09 1.67.79 1.96.93.29.15.48.22.55.34.07.13.07.75-.17 1.43z"/></svg>
+  <span>Falar no WhatsApp</span>
+</a>
+
+<script src="js/pix.js"></script>
+<script src="js/yaml.js"></script>
+<script src="js/conteudo.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

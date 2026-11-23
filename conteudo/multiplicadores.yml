@@ -1,0 +1,108 @@
+# ------------------------------------------------------------
+# Textos da página SEJA MULTIPLICADOR
+# ------------------------------------------------------------
+
+mult_selo: "Rede de multiplicadores"
+mult_titulo: "Seja um multiplicador de oportunidades"
+mult_titulo_destaque: "na sua cidade"
+mult_texto: >-
+  O Anésia Cauaçu já alcançou mais de 56 cidades baianas. Para chegar a toda a
+  Bahia, precisamos de gente no território disposto a organizar uma turma local
+  e acreditar junto com a gente que a juventude merece estudar perto de casa.
+mult_foto: "assets/uploads/post-parceria.jpg"
+mult_cartao_titulo: "56+"
+mult_cartao_texto: "Cidades baianas já alcançadas pelo projeto."
+
+# ---- O que é ser multiplicador ----
+que_e_selo: "O que é ser multiplicador"
+que_e_titulo: "Alguém que abre a porta na própria cidade"
+que_e_texto: >-
+  Multiplicadora é a pessoa que articula tudo por perto: encontra um espaço,
+  mobiliza os estudantes, ajuda na organização e mantém a turma funcionando.
+
+perfis:
+  - titulo: "Professores e universitários"
+    icone: "🧑‍🏫"
+    texto: "Quem pode dar aulas, monitorias, revisões ou corrigir redações."
+  - titulo: "Escolas e coletivos"
+    icone: "🏫"
+    texto: "Grêmios, coletivos juvenis, cursinhos locais e escolas que querem somar."
+  - titulo: "Igrejas e associações"
+    icone: "⛪"
+    texto: "Instituições que podem ceder espaço e mobilizar a comunidade."
+  - titulo: "Empresas e comércio"
+    icone: "💼"
+    texto: "Apoio com material, transporte, alimentação ou estrutura."
+  - titulo: "Lideranças locais"
+    icone: "🗣️"
+    texto: "Pessoas que conhecem o território e chegam a quem mais precisa."
+  - titulo: "Ex-alunos"
+    icone: "🌱"
+    texto: "Quem já passou pelo Anésia e quer devolver à comunidade o que recebeu."
+
+# ---- Passo a passo ----
+passos_selo: "Passo a passo"
+passos_titulo: "Como funciona a implantação de uma turma"
+passos_texto: "Um caminho construído junto, com acompanhamento da associação."
+
+passos:
+  - titulo: "Cadastro"
+    texto: "Você preenche o formulário contando da sua cidade, sua atuação e o que pode oferecer."
+  - titulo: "Conversa"
+    texto: "Nossa equipe entra em contato, conhece o contexto local e apresenta o modelo do cursinho."
+  - titulo: "Formação"
+    texto: "Você recebe orientação pedagógica, materiais de apoio e participa da rede de multiplicadores."
+  - titulo: "Turma"
+    texto: "Com espaço e estudantes mobilizados, a turma local começa — gratuita para todos os alunos."
+
+# ---- O que oferecemos / esperamos ----
+oferecemos_titulo: "O que a associação oferece"
+oferecemos:
+  - "Orientação pedagógica e metodologia do cursinho"
+  - "Materiais de estudo e modelos de organização"
+  - "Formação para professores voluntários"
+  - "Divulgação nas redes do projeto"
+  - "Integração à rede de mais de 56 cidades"
+
+esperamos_titulo: "O que esperamos de você"
+esperamos:
+  - "Compromisso com a gratuidade do cursinho"
+  - "Constância mínima durante o período de aulas"
+  - "Respeito à diversidade e à comunidade local"
+  - "Comunicação frequente com a coordenação"
+  - "Cuidado com os dados dos estudantes"
+
+# ---- Cidades ----
+cidades_selo: "Onde já chegamos"
+cidades_titulo: "Uma rede que atravessa a Bahia"
+cidades_texto: >-
+  A turma online alcançou estudantes de mais de 56 cidades baianas. A presença
+  física começou em Jequié, passou por Vitória da Conquista e agora quer ir além.
+
+cidades:
+  - "Jequié"
+  - "Vitória da Conquista"
+  - "Salvador"
+  - "Feira de Santana"
+  - "Ilhéus"
+  - "Itabuna"
+  - "Barreiras"
+  - "Teixeira de Freitas"
+  - "Guanambi"
+  - "Ipiaú"
+  - "Jitaúna"
+  - "Lafaiete Coutinho"
+  - "Maracás"
+  - "Manoel Vitorino"
+  - "+ 40 cidades"
+
+cidades_obs: >-
+  A lista é ilustrativa. A sua cidade ainda não está aqui? É justamente por
+  isso que queremos falar com você.
+
+# ---- Cadastro ----
+cadastro_selo: "Cadastro"
+cadastro_titulo: "Quero ser multiplicador de oportunidades"
+cadastro_texto: >-
+  Preencha os dados abaixo. Nossa equipe analisa cada cadastro e retorna pelo
+  WhatsApp para conversar sobre os próximos passos.

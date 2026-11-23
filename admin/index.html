@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Painel de Edição — Anésia Cauaçu</title>
+  <link rel="icon" type="image/jpeg" href="/assets/uploads/perfil-instagram.jpg">
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    /* Tela de carregamento enquanto o painel abre */
+    #carregando {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      background: #2b1a10;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      z-index: 1;
+    }
+    #carregando h1 { font-size: 1.3rem; margin: 0 0 .5rem; font-weight: 600; }
+    #carregando p { color: #c8b39f; font-size: .9rem; margin: 0; max-width: 30ch; }
+  </style>
+</head>
+<body>
+  <div id="carregando">
+    <div>
+      <h1>Painel de edição</h1>
+      <p>Carregando... se demorar, recarregue a página.</p>
+    </div>
+  </div>
+
+  <!-- Carrega o Decap CMS -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</body>
+</html>

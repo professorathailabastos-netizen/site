@@ -1,0 +1,82 @@
+# ------------------------------------------------------------
+# Textos da página de DOAÇÕES
+# ------------------------------------------------------------
+
+doacoes_selo: "Doações"
+doacoes_titulo: "Sua doação mantém uma sala cheia de futuro"
+doacoes_texto: >-
+  O Cursinho Anésia Cauaçu não cobra nada dos alunos. Cada real doado vira
+  apostila impressa, passagem de ônibus, lanche, internet para a aula online
+  e estrutura para a turma presencial em Jequié.
+
+pix_titulo: "Rápido, seguro e direto para o projeto"
+pix_texto: >-
+  Escolha um valor e envie pelo PIX da associação. Se quiser, avise a gente
+  pelo WhatsApp para receber o recibo.
+
+# ---- Cartões de valores ----
+valores_doacao:
+  - valor: "R$ 30"
+    descricao: "Material impresso de um mês para um estudante."
+    itens:
+      - "Apostilas e listas de exercícios"
+      - "Folhas de redação corrigidas"
+    destaque: false
+
+  - valor: "R$ 100"
+    descricao: "Transporte de alunos até as aulas presenciais."
+    itens:
+      - "Passagens para a turma de Jequié"
+      - "Ajuda para quem vem da zona rural"
+    destaque: true
+
+  - valor: "R$ 300"
+    descricao: "Estrutura e internet das turmas online."
+    itens:
+      - "Plataforma de aulas ao vivo"
+      - "Gravações para quem trabalha"
+    destaque: false
+
+  - valor: "Outro valor"
+    descricao: "Todo valor ajuda. Doe o quanto puder, uma vez ou todo mês."
+    itens:
+      - "Doação única ou recorrente"
+      - "Também aceitamos materiais e serviços"
+    destaque: false
+
+# ---- Parcerias ----
+parcerias_selo: "Além do dinheiro"
+parcerias_titulo: "Outras formas de sustentar o projeto"
+parcerias_texto: "Empresas, profissionais e pessoas físicas podem contribuir de vários jeitos."
+
+formas_apoio:
+  - titulo: "Materiais e equipamentos"
+    icone: "📚"
+    texto: "Livros, apostilas, computadores, projetores, impressão de material e itens de papelaria."
+  - titulo: "Transporte e alimentação"
+    icone: "🚌"
+    texto: "Passagens, van para visitas, lanche das aulas e apoio em eventos como o Jequié Nota Mil."
+  - titulo: "Espaço físico"
+    icone: "🏢"
+    texto: "Salas, auditórios e estruturas cedidas para aulas presenciais e aulões abertos."
+  - titulo: "Trabalho voluntário"
+    icone: "🧑‍🏫"
+    texto: "Professores, universitários, psicólogos, designers e gente que queira ajudar na organização."
+  - titulo: "Divulgação"
+    icone: "📣"
+    texto: "Compartilhar as inscrições nas suas redes é gratuito e ajuda a alcançar quem mais precisa."
+  - titulo: "Parceria institucional"
+    icone: "🤝"
+    texto: "Escolas, igrejas, associações e empresas que queiram apoiar a turma de uma cidade."
+
+# ---- Transparência ----
+transparencia_titulo: "Confiança se constrói com clareza"
+transparencia_texto: >-
+  A associação é sem fins lucrativos e mantida por doações, parcerias e trabalho
+  voluntário. Publicamos periodicamente o destino dos recursos.
+
+transparencia_itens:
+  - "Recursos destinados a material, transporte, alimentação e estrutura"
+  - "Nenhum aluno paga para participar"
+  - "Seleções e auxílios seguem critérios públicos"
+  - "Nunca pedimos pagamento em nome de vaga ou aprovação"

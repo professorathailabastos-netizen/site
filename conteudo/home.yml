@@ -1,0 +1,179 @@
+# ------------------------------------------------------------
+# Textos da página inicial
+# Editar aqui NÃO quebra o layout. Evite usar HTML.
+# ------------------------------------------------------------
+
+# ---- Topo (hero) ----
+hero_selo: "Jequié · Bahia · Desde 2021"
+hero_titulo: "A juventude do sertão"
+hero_titulo_destaque: "entra na universidade"
+hero_texto: >-
+  Somos o Cursinho Pré-Vestibular Comunitário Anésia Cauaçu: educação popular
+  100% gratuita, feita por professores voluntários, para estudantes de escola
+  pública que querem ocupar as salas da universidade.
+hero_botao_principal: "Quero me inscrever"
+hero_botao_secundario: "Apoiar o projeto"
+hero_foto: "assets/uploads/post-turma.jpg"
+hero_foto_alt: "Turma do Cursinho Anésia Cauaçu reunida no início das aulas"
+
+hero_selos:
+  - "Selecionado pela CPOP/MEC"
+  - "+56 cidades baianas"
+  - "Moção de Aplausos — Câmara de Jequié"
+
+hero_numero1_valor: 56
+hero_numero1_sufixo: "+"
+hero_numero1_rotulo: "Cidades atendidas"
+hero_numero2_valor: 1500
+hero_numero2_sufixo: "+"
+hero_numero2_rotulo: "Inscritos por ano"
+hero_numero3_valor: 2021
+hero_numero3_rotulo: "Desde"
+
+hero_cartao_titulo: "CPOP/MEC"
+hero_cartao_texto: "Selecionados em 2025 para a Rede Nacional de Cursinhos Populares."
+
+# ---- Faixa rolante ----
+faixa_itens:
+  - "Inscrições abertas"
+  - "Curso 100% gratuito"
+  - "Jequié e toda a Bahia"
+  - "Presencial e online"
+  - "Material incluso"
+  - "Apoio pedagógico"
+
+# ---- Quem somos ----
+sobre_selo: "Quem somos"
+sobre_titulo: "Uma associação nascida da vontade de ver a juventude ocupar espaços"
+sobre_paragrafo1: >-
+  A Associação de Vestibulandos da Bahia — Anésia Cauaçu nasceu em 2021, fundada
+  pela pedagoga Thaíla Bastos, pelo professor Matheus Moraes e amigos em comum.
+  A ideia era simples e teimosa: nenhum jovem deveria ficar fora da universidade
+  porque não pode pagar um cursinho.
+sobre_paragrafo2: >-
+  No primeiro ano, mais de 300 estudantes do ensino público foram contemplados.
+  A proposta cresceu, virou associação sem fins lucrativos e hoje mantém o
+  Cursinho Pré-Vestibular Comunitário Anésia Cauaçu, com turmas presenciais em
+  Jequié e turmas online que alcançam mais de 56 cidades baianas.
+sobre_paragrafo3: >-
+  Em 2025, o projeto foi selecionado pelo Ministério da Educação para integrar a
+  Rede Nacional de Cursinhos Populares (CPOP), um reconhecimento do trabalho
+  coletivo de professores voluntários, alunos e comunidade.
+
+nome_titulo: "Por que “Anésia Cauaçu”?"
+nome_paragrafo1: >-
+  O nome é uma homenagem a Anésia Cauaçu, mulher baiana que lutou ao lado da
+  família no cangaço do início do século XX, em Jequié. Antes de Maria Bonita e
+  Dadá, ela já comandava homens e enfrentava o sertão.
+nome_paragrafo2: >-
+  Escolher esse nome é dizer que coragem, resistência e protagonismo feminino
+  fazem parte da nossa história — e que a juventude do sertão também escreve a sua.
+
+# ---- Impacto ----
+impacto_selo: "Nosso impacto"
+impacto_titulo: "Resultado de trabalho voluntário e comunidade organizada"
+impacto_texto: "Números que representam histórias reais de Jequié e de toda a Bahia."
+
+impacto_numero1_valor: 56
+impacto_numero1_sufixo: "+"
+impacto_numero1_rotulo: "Cidades alcançadas"
+impacto_numero2_valor: 1500
+impacto_numero2_sufixo: "+"
+impacto_numero2_rotulo: "Inscrições em um ano"
+impacto_numero3_valor: 2021
+impacto_numero3_rotulo: "Ano de fundação"
+
+impacto_onde_titulo: "Onde nossos alunos chegam"
+impacto_onde_texto: >-
+  Aprovações nas principais universidades públicas da Bahia e bolsas integrais
+  em instituições particulares por meio do PROUNI. Nossos ex-alunos já estão
+  concluindo a faculdade — e alguns voltaram como professores voluntários.
+
+impacto_lista:
+  - "Aprovações via ENEM, SISU e vestibulares estaduais"
+  - "Bolsa de 100% em universidades particulares pelo PROUNI"
+  - "Apoio para acesso a cotas, auxílios e programas de permanência"
+  - "Acompanhamento pedagógico e atendimento social"
+
+# ---- Cursos ----
+cursos_selo: "Como estudar com a gente"
+cursos_titulo: "Três portas de entrada — todas gratuitas"
+cursos_texto: "Escolha o formato que cabe na sua rotina. Não cobramos matrícula, mensalidade nem material."
+
+cursos:
+  - titulo: "Turma presencial — Jequié"
+    icone: "🏫"
+    texto: >-
+      Aulas de segunda a sexta, no contraturno, na Avenida César Borges.
+      Turma pequena, acompanhamento próximo e material impresso.
+    itens:
+      - "Presença na Igreja Evangélica Nova Esperança"
+      - "Atendimento social e apoio pedagógico"
+      - "Prioridade para escola pública e CadÚnico"
+    destaque: false
+
+  - titulo: "Turma online — toda a Bahia"
+    icone: "💻"
+    texto: >-
+      Para quem estuda ou trabalha durante o dia. Aulas ao vivo com gravação
+      disponível, para acompanhar no seu horário.
+    itens:
+      - "Já alcançou mais de 56 cidades baianas"
+      - "Turma noturna com aulas gravadas"
+      - "Materiais digitais gratuitos"
+    destaque: true
+
+  - titulo: "Aulões e revisões abertas"
+    icone: "📣"
+    texto: >-
+      Encontros pontuais como o Jequié Nota Mil: revisão aberta para o ENEM,
+      com parceiros locais e entrada gratuita.
+    itens:
+      - "Revisões por área do conhecimento"
+      - "Simulados no formato ENEM"
+      - "Abertos à comunidade, sem inscrição"
+    destaque: false
+
+# ---- Depoimentos ----
+depoimentos_selo: "Vozes do projeto"
+depoimentos_titulo: "Quando o conhecimento chega como direito"
+
+depoimentos:
+  - frase: >-
+      “Cada vaga conquistada carrega o rosto de estudantes de escola pública,
+      de famílias trabalhadoras, de gente que transformou medo em coragem.”
+    nome: "Associação Anésia Cauaçu"
+    descricao: "Publicação institucional"
+  - frase: >-
+      “Aqui as aprovações não param: universidade pública pelo vestibular e
+      SISU, e também PROUNI com bolsa integral. No Anésia, a juventude tem escolhas.”
+    nome: "Bia"
+    descricao: "Aluna aprovada em vários cursos"
+  - frase: >-
+      “O ENEM é só uma ponte: do outro lado está o futuro lindo que vocês
+      merecem. Estamos com vocês em cada resposta, em cada respiração.”
+    nome: "Equipe Anésia Cauaçu"
+    descricao: "Mensagem aos estudantes"
+
+# ---- Inscrições ----
+inscricao_selo: "Quero estudar"
+inscricao_titulo: "Pré-inscrição gratuita"
+inscricao_texto: >-
+  Preencha o formulário e nossa equipe entra em contato pelo WhatsApp com as
+  próximas datas, o local das aulas e a lista de documentos.
+
+inscricao_quem_pode:
+  - "Quem concluiu ou está concluindo o ensino médio em escola pública"
+  - "Estudantes negros, indígenas, quilombolas e pessoas com deficiência têm prioridade"
+  - "Quem vai prestar ENEM, SISU ou vestibulares em 2026"
+  - "Famílias de baixa renda, com prioridade para inscritos no CadÚnico"
+
+inscricao_documentos: >-
+  RG com foto · comprovante de residência · comprovante de conclusão ou matrícula
+  no 3º ano de escola pública · comprovante de inscrição no ENEM ·
+  folha resumo do CadÚnico.
+
+# ---- Contato ----
+contato_titulo: "Fale com a associação"
+contato_texto: "Atendimento pelo Instagram e WhatsApp."
+contato_endereco: "Avenida César Borges — Igreja Evangélica Nova Esperança, Jequié · Bahia"

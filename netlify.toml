@@ -1,0 +1,37 @@
+# Arquivos que o Netlify usa para publicar o site
+
+# Não processa nada, só publica os arquivos como estão
+[build]
+  publish = "."
+
+# O painel de edição fica em /admin
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+
+# Página de erro personalizada
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Segurança básica
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Imagens ficam guardadas por 30 dias no navegador (carrega mais rápido)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# Arquivos de conteúdo não devem ser indexados pelo Google
+[[headers]]
+  for = "/conteudo/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

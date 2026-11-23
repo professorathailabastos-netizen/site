@@ -1,0 +1,28 @@
+# ------------------------------------------------------------
+# Configurações gerais do site
+# Estes dados aparecem em todas as páginas.
+# ------------------------------------------------------------
+
+# Nome oficial da associação
+nome: "Associação de Vestibulandos da Bahia — Anésia Cauaçu"
+nome_curto: "Anésia Cauaçu"
+
+# ---- WhatsApp ----
+# IMPORTANTE: só números, com 55 + DDD na frente. Ex.: 5573998205303
+whatsapp_numero: "5573998205303"
+whatsapp_exibicao: "(73) 99820-5303"
+
+# ---- PIX ----
+pix_chave: "48.013.739/0001-64"
+pix_chave_numeros: "48013739000164"
+pix_nome_recebedor: "ASSOCIACAO ANESIA CAUACU"
+pix_cidade: "JEQUIE"
+pix_descricao: "DOACAO CURSINHO"
+
+# ---- Redes sociais ----
+instagram: "https://www.instagram.com/anesiacauacubahia/"
+instagram_usuario: "@anesiacauacubahia"
+facebook: ""
+
+# ---- Rodapé ----
+rodape_endereco: "Jequié, Bahia"
