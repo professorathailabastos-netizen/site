@@ -19,8 +19,6 @@ site_url: https://anesiacauacu.com.br
 display_url: https://anesiacauacu.com.br
 logo_url: https://anesiacauacu.com.br/assets/uploads/perfil-instagram.jpg
 
-# Publicação imediata: o botão "Publish" salva direto no site.
-# (Não usar publish_mode aqui — "simple" não é um valor aceito pelo Decap CMS.)
 
 collections:
   # ============================================================
